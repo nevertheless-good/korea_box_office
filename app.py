@@ -93,7 +93,7 @@ def saveRecomendHistory(title):
 
 
 st.set_page_config(layout='wide')
-st.header('AIB_Section3 (영화추천서비스)')
+st.header('영화추천서비스')
 
 movie_list = movies['movieName'].values
 title = st.selectbox('선택한 영화의 장르, 감독, 배우의 정보를 바탕으로 영화를 추천합니다.', movie_list)
